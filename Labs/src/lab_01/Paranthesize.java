@@ -1,0 +1,27 @@
+package lab_01;
+
+import java.util.Scanner;
+
+public class Paranthesize {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String expres = scan.next();
+		int len = expres.length();
+		Stack s2 = new Stack(len);
+		
+		
+		for (int i = 0; i < len; i++) {
+			if(expres.charAt(i) == '(') {
+				s2.push(expres.charAt(i));
+			}
+			if(expres.charAt(i) == ')') {
+				s2.pop();
+			}
+		}
+		
+		String result = s2.isEmpty() ? "Valid" : "Invalid";
+		System.out.println(result);
+		
+		scan.close();
+	}
+}
