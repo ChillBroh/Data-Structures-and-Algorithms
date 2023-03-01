@@ -1,0 +1,16 @@
+package Lecture01_Stack;
+
+public class Stack {
+	private double[] arr;
+	private int max_Size;
+	private int top;
+	
+	public Stack(int size) {
+		this.max_Size = size;
+		this.arr = new double[max_Size];
+		this.top = -1; //no items
+	}
+	
+	public 
+	
+}

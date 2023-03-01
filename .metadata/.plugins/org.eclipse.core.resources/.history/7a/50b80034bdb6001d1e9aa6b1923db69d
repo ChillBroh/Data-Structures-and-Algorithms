@@ -1,0 +1,16 @@
+package Lecture02_Queue;
+
+public class Main {
+	public static void main(String[] args) {
+		Queue q1 = new Queue(4);
+		q1.insert(1);
+		q1.insert(2);
+		q1.insert(3);
+		q1.insert(4);
+		
+		
+		while(!q1.isEmpty()) {
+			q1.remove();
+		}
+	}
+}
