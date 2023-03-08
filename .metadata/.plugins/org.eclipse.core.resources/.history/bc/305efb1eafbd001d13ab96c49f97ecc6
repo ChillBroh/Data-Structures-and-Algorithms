@@ -1,0 +1,8 @@
+package Lecture03_Linkedlist;
+
+public class Main {
+	 public static void main(String[] args) {
+		Link l1 = new Link(20);
+	}
+}
+ 
