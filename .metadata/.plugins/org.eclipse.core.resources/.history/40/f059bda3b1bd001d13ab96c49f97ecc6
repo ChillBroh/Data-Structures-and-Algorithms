@@ -15,7 +15,7 @@ public class LinkList {
 		 
 		 while(current != null) {
 			 current.displayLink();
-			 current = current.next; 
+			 current = current.next;
 		 }
 	 }
 	
