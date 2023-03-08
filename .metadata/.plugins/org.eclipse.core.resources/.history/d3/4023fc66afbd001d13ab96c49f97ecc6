@@ -6,10 +6,7 @@ public class Main {
 		Link L2 = new Link(20);
 		Link L3 = new Link(40);
 		
-		L1.next = L2; //give reference to L2
-		L2.next = L3; //give reference to L3
-		
-		
+		L1.next = L2;
 	}
 }
  
