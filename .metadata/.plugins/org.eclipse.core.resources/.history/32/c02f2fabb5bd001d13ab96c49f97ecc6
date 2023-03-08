@@ -1,0 +1,18 @@
+package Question_03;
+
+import java.util.Scanner;
+
+public class QMain {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		QLinkList linklist = new QLinkList();
+		
+		System.out.print("How many Links do you want to create? : ");
+		int count = scan.nextInt();
+		
+		for(int i =0 ; i < count; i++) {
+			System.out.print("Enter values for link "+ i+1);
+			
+		}
+	}
+}
